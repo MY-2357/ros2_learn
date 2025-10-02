@@ -36,13 +36,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 25,
+				"line" : 28,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 40,
+				"line" : 43,
 				"parent" : 0
 			},
 			{
@@ -244,7 +244,7 @@
 				"person_node"
 			],
 			"targetId" : "person_node::@6890427a1f51a3e7e1df",
-			"targetIndex" : 6,
+			"targetIndex" : 7,
 			"type" : "target"
 		},
 		{
@@ -293,6 +293,18 @@
 			],
 			"targetId" : "learn_functional::@6890427a1f51a3e7e1df",
 			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/demo_cpp_pkg",
+			"paths" : 
+			[
+				"learn_thread"
+			],
+			"targetId" : "learn_thread::@6890427a1f51a3e7e1df",
+			"targetIndex" : 6,
 			"type" : "target"
 		},
 		{

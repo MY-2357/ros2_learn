@@ -1,0 +1,79 @@
+[0.049s] Invoking command in '/home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/build/demo_cpp_pkg -- -j8 -l8
+[0.164s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.527s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.600s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.607s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.624s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.646s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.675s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.743s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.744s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.959s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.036s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.327s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.327s] -- Configured cppcheck include dirs: /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/include
+[1.327s] -- Configured cppcheck exclude dirs and/or files: 
+[1.346s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.384s] -- Added test 'lint_cmake' to check CMake code style
+[1.403s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.565s] -- Added test 'uncrustify' to check C / C++ code style
+[1.565s] -- Configured uncrustify additional arguments: 
+[1.585s] -- Added test 'xmllint' to check XML markup files
+[1.586s] -- Configuring done
+[1.649s] -- Generating done
+[1.660s] -- Build files have been written to: /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/build/demo_cpp_pkg
+[1.795s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[1.820s] [35m[1mConsolidate compiler generated dependencies of target learn_auto[0m
+[1.820s] [35m[1mConsolidate compiler generated dependencies of target learn_lambda[0m
+[1.825s] [35m[1mConsolidate compiler generated dependencies of target learn_functional[0m
+[1.835s] [35m[1mConsolidate compiler generated dependencies of target learn_shared_ptr[0m
+[1.835s] [35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[1.907s] [  7%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[1.907s] [ 14%] [32mBuilding CXX object CMakeFiles/learn_lambda.dir/src/learn_lambda.cpp.o[0m
+[1.929s] [ 21%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o[0m
+[1.929s] [ 28%] [32mBuilding CXX object CMakeFiles/learn_functional.dir/src/learn_functional.cpp.o[0m
+[1.938s] [ 35%] [32mBuilding CXX object CMakeFiles/learn_shared_ptr.dir/src/learn_shared_ptr.cpp.o[0m
+[1.982s] [ 42%] [32mBuilding CXX object CMakeFiles/learn_auto.dir/src/learn_auto.cpp.o[0m
+[1.997s] [ 50%] [32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o[0m
+[2.666s] [ 57%] [32m[1mLinking CXX executable learn_auto[0m
+[2.896s] [ 64%] [32m[1mLinking CXX executable learn_shared_ptr[0m
+[3.048s] [ 64%] Built target learn_auto
+[3.085s] [ 71%] [32m[1mLinking CXX executable learn_lambda[0m
+[3.277s] [ 71%] Built target learn_shared_ptr
+[3.335s] [ 78%] [32m[1mLinking CXX executable learn_functional[0m
+[3.467s] [ 78%] Built target learn_lambda
+[3.645s] [ 78%] Built target learn_functional
+[8.695s] [ 85%] [32m[1mLinking CXX executable cpp_node[0m
+[9.070s] [ 92%] [32m[1mLinking CXX executable person_node[0m
+[9.164s] [ 92%] Built target cpp_node
+[9.443s] [ 92%] Built target person_node
+[10.876s] [100%] [32m[1mLinking CXX executable learn_thread[0m
+[11.476s] [100%] Built target learn_thread
+[11.530s] Invoked command in '/home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/build/demo_cpp_pkg -- -j8 -l8
+[11.575s] Invoking command in '/home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/build/demo_cpp_pkg
+[11.609s] -- Install configuration: ""
+[11.610s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+[11.615s] -- Set runtime path of "/home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node" to ""
+[11.616s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node
+[11.622s] -- Set runtime path of "/home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node" to ""
+[11.623s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_auto
+[11.629s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_shared_ptr
+[11.633s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_lambda
+[11.634s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_functional
+[11.634s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_thread
+[11.641s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[11.643s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[11.644s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[11.645s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[11.645s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[11.646s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[11.646s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[11.646s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[11.646s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[11.646s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[11.646s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[11.646s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[11.647s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[11.647s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[11.647s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[11.653s] Invoked command in '/home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/build/demo_cpp_pkg

@@ -6,6 +6,7 @@
 /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles/learn_shared_ptr.dir
 /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles/learn_lambda.dir
 /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles/learn_functional.dir
+/home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles/learn_thread.dir
 /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles/test.dir
 /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles/edit_cache.dir
 /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles/rebuild_cache.dir

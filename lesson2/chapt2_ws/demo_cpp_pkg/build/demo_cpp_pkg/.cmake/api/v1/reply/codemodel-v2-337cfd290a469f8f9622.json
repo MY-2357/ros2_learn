@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-38e1c969403b904354d9.json",
+					"jsonFile" : "directory-.-a5df355aab3451cf9ae3.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -23,7 +23,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -45,7 +46,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -54,7 +56,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "cpp_node::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-cpp_node-55b88f719a53263fb033.json",
+					"jsonFile" : "target-cpp_node-c95470ff47f4be3dd314.json",
 					"name" : "cpp_node",
 					"projectIndex" : 0
 				},
@@ -68,35 +70,42 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "learn_auto::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-learn_auto-8ef36ea056343ef6271f.json",
+					"jsonFile" : "target-learn_auto-3b15daf7958257a0159c.json",
 					"name" : "learn_auto",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "learn_functional::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-learn_functional-bf700e6f353e57d97dc9.json",
+					"jsonFile" : "target-learn_functional-45b0f6f6e5fcff1e1ccb.json",
 					"name" : "learn_functional",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "learn_lambda::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-learn_lambda-ec5e2bb5ea86ff079ee2.json",
+					"jsonFile" : "target-learn_lambda-8d0cd1136377f2b8d1b6.json",
 					"name" : "learn_lambda",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "learn_shared_ptr::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-learn_shared_ptr-34292f6c9449026f7077.json",
+					"jsonFile" : "target-learn_shared_ptr-8c91f9881223fb784b02.json",
 					"name" : "learn_shared_ptr",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "learn_thread::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-learn_thread-4eb5756c304127bb24c5.json",
+					"name" : "learn_thread",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "person_node::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-person_node-74623d679290cb5d4ed3.json",
+					"jsonFile" : "target-person_node-56254d5ea1238505d976.json",
 					"name" : "person_node",
 					"projectIndex" : 0
 				},

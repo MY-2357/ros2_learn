@@ -12,7 +12,8 @@
 		[
 			"add_executable",
 			"install",
-			"add_compile_options"
+			"add_compile_options",
+			"include_directories"
 		],
 		"files" : 
 		[
@@ -26,19 +27,25 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 18,
+				"line" : 20,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 25,
+				"line" : 28,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
 				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 15,
 				"parent" : 0
 			}
 		]
@@ -59,6 +66,13 @@
 				{
 					"backtrace" : 3,
 					"fragment" : "-Wpedantic"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/include"
 				}
 			],
 			"language" : "CXX",

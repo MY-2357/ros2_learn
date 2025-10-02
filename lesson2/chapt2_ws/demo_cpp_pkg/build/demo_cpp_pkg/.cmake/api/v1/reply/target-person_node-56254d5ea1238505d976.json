@@ -15,6 +15,7 @@
 			"target_link_libraries",
 			"ament_target_dependencies",
 			"add_compile_options",
+			"include_directories",
 			"target_include_directories"
 		],
 		"files" : 
@@ -30,19 +31,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 16,
+				"line" : 18,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 25,
+				"line" : 28,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 23,
+				"line" : 26,
 				"parent" : 0
 			},
 			{
@@ -59,6 +60,12 @@
 			},
 			{
 				"command" : 5,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
 				"file" : 1,
 				"line" : 141,
 				"parent" : 3
@@ -98,6 +105,10 @@
 			[
 				{
 					"backtrace" : 6,
+					"path" : "/home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/include"
+				},
+				{
+					"backtrace" : 7,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rclcpp"
 				},
