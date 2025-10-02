@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:24:
+  Parse error.  Expected "(", got unquoted argument with text
+  "lib/${PROJECT_NAME}".
+
+[0m
+gmake: *** [Makefile:349: cmake_check_build_system] Error 1
