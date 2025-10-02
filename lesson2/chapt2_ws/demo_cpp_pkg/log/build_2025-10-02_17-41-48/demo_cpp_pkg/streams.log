@@ -1,0 +1,10 @@
+[0.047s] Invoking command in '/home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_python_pkg/install/demo_python_pkg:/home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/install/demo_python_pkg:/home/zmy/Desktop/ros2_learn/chapt2_ws/src/install/demo_python_pkg:/home/zmy/Desktop/ros2_learn/chapt2_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/build/demo_cpp_pkg -- -j8 -l8
+[0.165s] -- Configuring incomplete, errors occurred!
+[0.168s] See also "/home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[0.168s] [31mCMake Error at CMakeLists.txt:24:
+[0.168s]   Parse error.  Expected "(", got unquoted argument with text
+[0.169s]   "lib/${PROJECT_NAME}".
+[0.169s] 
+[0.169s] [0m
+[0.169s] gmake: *** [Makefile:349: cmake_check_build_system] Error 1
+[0.184s] Invoked command in '/home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/build/demo_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_python_pkg/install/demo_python_pkg:/home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/install/demo_python_pkg:/home/zmy/Desktop/ros2_learn/chapt2_ws/src/install/demo_python_pkg:/home/zmy/Desktop/ros2_learn/chapt2_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/build/demo_cpp_pkg -- -j8 -l8

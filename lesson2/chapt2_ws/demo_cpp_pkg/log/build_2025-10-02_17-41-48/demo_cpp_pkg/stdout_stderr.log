@@ -1,0 +1,8 @@
+-- Configuring incomplete, errors occurred!
+See also "/home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[31mCMake Error at CMakeLists.txt:24:
+  Parse error.  Expected "(", got unquoted argument with text
+  "lib/${PROJECT_NAME}".
+
+[0m
+gmake: *** [Makefile:349: cmake_check_build_system] Error 1
