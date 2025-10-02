@@ -1,0 +1,28 @@
+[0.755s] Invoking command in '/home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_python_pkg': PYTHONPATH=/home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_python_pkg/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_python_pkg/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/demo_python_pkg build --build-base /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_python_pkg/build/demo_python_pkg/build install --record /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_python_pkg/build/demo_python_pkg/install.log --single-version-externally-managed install_data
+[1.035s] running egg_info
+[1.035s] writing build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO
+[1.035s] writing dependency_links to build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt
+[1.036s] writing entry points to build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt
+[1.036s] writing requirements to build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt
+[1.036s] writing top-level names to build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt
+[1.038s] reading manifest file 'build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[1.039s] adding license file 'LICENSE'
+[1.039s] writing manifest file 'build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[1.039s] running build
+[1.041s] running build_py
+[1.042s] copying demo_python_pkg/learn_thread.py -> /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_python_pkg/build/demo_python_pkg/build/lib/demo_python_pkg
+[1.042s] running install
+[1.042s] running install_lib
+[1.042s] copying /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_python_pkg/build/demo_python_pkg/build/lib/demo_python_pkg/learn_thread.py -> /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_python_pkg/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg
+[1.043s] byte-compiling /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_python_pkg/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/learn_thread.py to learn_thread.cpython-310.pyc
+[1.044s] running install_data
+[1.044s] running install_egg_info
+[1.046s] removing '/home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_python_pkg/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.046s] Copying build/demo_python_pkg/demo_python_pkg.egg-info to /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_python_pkg/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info
+[1.048s] running install_scripts
+[1.073s] Installing learn_thread script to /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_python_pkg/install/demo_python_pkg/lib/demo_python_pkg
+[1.073s] Installing person_node script to /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_python_pkg/install/demo_python_pkg/lib/demo_python_pkg
+[1.073s] Installing python_node script to /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_python_pkg/install/demo_python_pkg/lib/demo_python_pkg
+[1.073s] Installing writer_node script to /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_python_pkg/install/demo_python_pkg/lib/demo_python_pkg
+[1.074s] writing list of installed files to '/home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_python_pkg/build/demo_python_pkg/install.log'
+[1.092s] Invoked command in '/home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_python_pkg' returned '0': PYTHONPATH=/home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_python_pkg/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_python_pkg/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/demo_python_pkg build --build-base /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_python_pkg/build/demo_python_pkg/build install --record /home/zmy/Desktop/ros2_learn/lesson2/chapt2_ws/demo_python_pkg/build/demo_python_pkg/install.log --single-version-externally-managed install_data
