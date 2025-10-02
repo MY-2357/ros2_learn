@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./chapt2_ws/demo_python_pkg"
+    ]
+}
