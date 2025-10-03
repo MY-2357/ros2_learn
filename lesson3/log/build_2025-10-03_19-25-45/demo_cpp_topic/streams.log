@@ -1,0 +1,26 @@
+[0.009s] Invoking command in '/home/zmy/Desktop/ros2_learn/lesson3/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zmy/Desktop/ros2_learn/lesson3/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --build /home/zmy/Desktop/ros2_learn/lesson3/build/demo_cpp_topic -- -j8 -l8
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target turtle_circle[0m
+[0.076s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o[0m
+[4.017s] [100%] [32m[1mLinking CXX executable turtle_circle[0m
+[4.204s] [100%] Built target turtle_circle
+[4.216s] Invoked command in '/home/zmy/Desktop/ros2_learn/lesson3/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zmy/Desktop/ros2_learn/lesson3/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --build /home/zmy/Desktop/ros2_learn/lesson3/build/demo_cpp_topic -- -j8 -l8
+[4.228s] Invoking command in '/home/zmy/Desktop/ros2_learn/lesson3/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zmy/Desktop/ros2_learn/lesson3/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --install /home/zmy/Desktop/ros2_learn/lesson3/build/demo_cpp_topic
+[4.244s] -- Install configuration: ""
+[4.244s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle
+[4.247s] -- Set runtime path of "/home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle" to ""
+[4.247s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+[4.249s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+[4.249s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+[4.249s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+[4.249s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+[4.250s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+[4.250s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+[4.250s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+[4.250s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+[4.250s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+[4.250s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+[4.251s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+[4.251s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+[4.251s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+[4.251s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/demo_cpp_topic/package.xml
+[4.254s] Invoked command in '/home/zmy/Desktop/ros2_learn/lesson3/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zmy/Desktop/ros2_learn/lesson3/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --install /home/zmy/Desktop/ros2_learn/lesson3/build/demo_cpp_topic

@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:15 (amnet_target_dependencies):
+  Unknown CMake command "amnet_target_dependencies".
+
+[0m

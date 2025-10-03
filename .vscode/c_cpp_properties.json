@@ -5,7 +5,9 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "/opt/ros/humble/include/**",
-                "${workspaceFolder}/lesson2/chapt2_ws/demo_cpp_pkg/include"
+                "${workspaceFolder}/lesson2/chapt2_ws/demo_cpp_pkg/include",
+                "/opt/ros/humble/include/rclcpp",
+                "/opt/ros/humble/include/geometry_msgs"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
