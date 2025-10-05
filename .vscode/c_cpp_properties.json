@@ -7,7 +7,9 @@
                 "/opt/ros/humble/include/**",
                 "${workspaceFolder}/lesson2/chapt2_ws/demo_cpp_pkg/include",
                 "/opt/ros/humble/include/rclcpp",
-                "/opt/ros/humble/include/geometry_msgs"
+                "/opt/ros/humble/include/geometry_msgs",
+                "/opt/ros/humble/include/rcl",
+                "/opt/ros/humble/include/turtlesim"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

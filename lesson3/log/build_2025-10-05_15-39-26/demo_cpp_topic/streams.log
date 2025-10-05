@@ -1,0 +1,48 @@
+[0.061s] Invoking command in '/home/zmy/Desktop/ros2_learn/lesson3/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zmy/Desktop/ros2_learn/lesson3/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --build /home/zmy/Desktop/ros2_learn/lesson3/build/demo_cpp_topic -- -j8 -l8
+[0.371s] [ 25%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[0.391s] [ 75%] Built target turtle_circle
+[5.983s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.984s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.984s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.984s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.984s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.985s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.985s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.985s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.986s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.986s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.986s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.986s]                  from [01m[K/home/zmy/Desktop/ros2_learn/lesson3/src/demo_cpp_topic/src/turtle_control.cpp:1[m[K:
+[5.986s] [01m[K/home/zmy/Desktop/ros2_learn/lesson3/src/demo_cpp_topic/src/turtle_control.cpp:[m[K In constructor ‘[01m[KTurtleControlNode::TurtleControlNode(std::string)[m[K’:
+[5.987s] [01m[K/home/zmy/Desktop/ros2_learn/lesson3/src/demo_cpp_topic/src/turtle_control.cpp:18:34:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[5.987s]    18 |         RCLCPP_INFO(get_logger(),[01;35m[K"%s,启动！"[m[K,node_name);
+[5.987s]       |                                  [01;35m[K^~~~~~~~~~~[m[K
+[5.987s] [01m[K/home/zmy/Desktop/ros2_learn/lesson3/src/demo_cpp_topic/src/turtle_control.cpp:18:36:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.988s]    18 |         RCLCPP_INFO(get_logger(),"[01;36m[K%s[m[K,启动！",node_name);
+[5.988s]       |                                   [01;36m[K~^[m[K
+[5.989s]       |                                    [01;36m[K|[m[K
+[5.989s]       |                                    [01;36m[Kchar*[m[K
+[16.026s] [100%] [32m[1mLinking CXX executable turtle_control[0m
+[17.269s] [100%] Built target turtle_control
+[17.322s] Invoked command in '/home/zmy/Desktop/ros2_learn/lesson3/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zmy/Desktop/ros2_learn/lesson3/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --build /home/zmy/Desktop/ros2_learn/lesson3/build/demo_cpp_topic -- -j8 -l8
+[17.375s] Invoking command in '/home/zmy/Desktop/ros2_learn/lesson3/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zmy/Desktop/ros2_learn/lesson3/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --install /home/zmy/Desktop/ros2_learn/lesson3/build/demo_cpp_topic
+[17.412s] -- Install configuration: ""
+[17.413s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle
+[17.416s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control
+[17.438s] -- Set runtime path of "/home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control" to ""
+[17.438s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+[17.441s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+[17.441s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+[17.441s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+[17.441s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+[17.442s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+[17.442s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+[17.442s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+[17.442s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+[17.442s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+[17.444s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+[17.444s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+[17.444s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+[17.444s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+[17.444s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/install/demo_cpp_topic/share/demo_cpp_topic/package.xml
+[17.450s] Invoked command in '/home/zmy/Desktop/ros2_learn/lesson3/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zmy/Desktop/ros2_learn/lesson3/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --install /home/zmy/Desktop/ros2_learn/lesson3/build/demo_cpp_topic

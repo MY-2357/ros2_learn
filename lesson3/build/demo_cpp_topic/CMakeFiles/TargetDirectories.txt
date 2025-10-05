@@ -1,6 +1,7 @@
 /home/zmy/Desktop/ros2_learn/lesson3/build/demo_cpp_topic/CMakeFiles/uninstall.dir
 /home/zmy/Desktop/ros2_learn/lesson3/build/demo_cpp_topic/CMakeFiles/demo_cpp_topic_uninstall.dir
 /home/zmy/Desktop/ros2_learn/lesson3/build/demo_cpp_topic/CMakeFiles/turtle_circle.dir
+/home/zmy/Desktop/ros2_learn/lesson3/build/demo_cpp_topic/CMakeFiles/turtle_control.dir
 /home/zmy/Desktop/ros2_learn/lesson3/build/demo_cpp_topic/CMakeFiles/test.dir
 /home/zmy/Desktop/ros2_learn/lesson3/build/demo_cpp_topic/CMakeFiles/edit_cache.dir
 /home/zmy/Desktop/ros2_learn/lesson3/build/demo_cpp_topic/CMakeFiles/rebuild_cache.dir
