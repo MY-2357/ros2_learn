@@ -1,0 +1,38 @@
+[0.786s] Invoking command in '/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/src/status_publisher': PYTHONPATH=/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_publisher/build install --record /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_publisher/install.log --single-version-externally-managed install_data
+[1.077s] running egg_info
+[1.077s] creating ../../build/status_publisher/status_publisher.egg-info
+[1.078s] writing ../../build/status_publisher/status_publisher.egg-info/PKG-INFO
+[1.079s] writing dependency_links to ../../build/status_publisher/status_publisher.egg-info/dependency_links.txt
+[1.079s] writing entry points to ../../build/status_publisher/status_publisher.egg-info/entry_points.txt
+[1.079s] writing requirements to ../../build/status_publisher/status_publisher.egg-info/requires.txt
+[1.079s] writing top-level names to ../../build/status_publisher/status_publisher.egg-info/top_level.txt
+[1.079s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[1.081s] reading manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[1.081s] adding license file 'LICENSE'
+[1.082s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[1.082s] running build
+[1.082s] running build_py
+[1.082s] creating /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_publisher/build
+[1.082s] creating /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_publisher/build/lib
+[1.083s] creating /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_publisher/build/lib/status_publisher
+[1.083s] copying status_publisher/__init__.py -> /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_publisher/build/lib/status_publisher
+[1.083s] copying status_publisher/sys_status_pub.py -> /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_publisher/build/lib/status_publisher
+[1.084s] running install
+[1.084s] running install_lib
+[1.084s] creating /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[1.085s] copying /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_publisher/build/lib/status_publisher/__init__.py -> /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[1.085s] copying /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_publisher/build/lib/status_publisher/sys_status_pub.py -> /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[1.086s] byte-compiling /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher/__init__.py to __init__.cpython-310.pyc
+[1.086s] byte-compiling /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher/sys_status_pub.py to sys_status_pub.cpython-310.pyc
+[1.087s] running install_data
+[1.087s] creating /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_publisher/share/ament_index
+[1.087s] creating /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_publisher/share/ament_index/resource_index
+[1.087s] creating /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_publisher/share/ament_index/resource_index/packages
+[1.087s] copying resource/status_publisher -> /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_publisher/share/ament_index/resource_index/packages
+[1.087s] copying package.xml -> /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_publisher/share/status_publisher
+[1.087s] running install_egg_info
+[1.089s] Copying ../../build/status_publisher/status_publisher.egg-info to /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher-0.0.0-py3.10.egg-info
+[1.091s] running install_scripts
+[1.117s] Installing sys_status_pub script to /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_publisher/lib/status_publisher
+[1.118s] writing list of installed files to '/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_publisher/install.log'
+[1.137s] Invoked command in '/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/src/status_publisher' returned '0': PYTHONPATH=/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_publisher/build install --record /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_publisher/install.log --single-version-externally-managed install_data

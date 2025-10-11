@@ -1,0 +1,80 @@
+[0.024s] Invoking command in '/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces
+[0.059s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.239s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.272s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.276s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.285s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.299s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.317s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.337s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.694s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.190s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.381s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.417s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.422s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.473s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.474s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.474s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.474s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.511s] -- Found PythonExtra: .so  
+[1.571s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.608s] -- Added test 'lint_cmake' to check CMake code style
+[1.612s] -- Added test 'xmllint' to check XML markup files
+[1.617s] -- Configuring done
+[1.691s] -- Generating done
+[1.703s] -- Build files have been written to: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces
+[1.712s] Invoked command in '/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces
+[1.716s] Invoking command in '/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces -- -j8 -l8
+[1.833s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.877s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.899s] [  6%] Built target ament_cmake_python_copy_status_interfaces
+[2.161s] [  6%] Built target status_interfaces__cpp
+[2.187s] [  9%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__functions.c.o[0m
+[2.200s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.200s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.202s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.238s] In file included from [01m[K/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces/rosidl_generator_c/status_interfaces/msg/detail/system_status__functions.h:19[m[K,
+[2.240s]                  from [01m[K/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces/rosidl_generator_c/status_interfaces/msg/detail/system_status__functions.c:4[m[K:
+[2.240s] [01m[K/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces/rosidl_generator_c/status_interfaces/msg/detail/system_status__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Kbuildin_interfaces/msg/detail/time__struct.h: No such file or directory
+[2.240s]    22 | #include [01;31m[K"buildin_interfaces/msg/detail/time__struct.h"[m[K
+[2.240s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.240s] compilation terminated.
+[2.242s] gmake[2]: *** [CMakeFiles/status_interfaces__rosidl_generator_c.dir/build.make:107: CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__functions.c.o] Error 1
+[2.244s] gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/status_interfaces__rosidl_generator_c.dir/all] Error 2
+[2.245s] gmake[1]: *** Waiting for unfinished jobs....
+[2.276s] running egg_info
+[2.278s] creating status_interfaces.egg-info
+[2.279s] writing status_interfaces.egg-info/PKG-INFO
+[2.279s] writing dependency_links to status_interfaces.egg-info/dependency_links.txt
+[2.279s] writing top-level names to status_interfaces.egg-info/top_level.txt
+[2.280s] writing manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[2.281s] reading manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[2.282s] writing manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[2.329s] [ 19%] Built target ament_cmake_python_build_status_interfaces_egg
+[2.471s] [ 22%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/status_interfaces/msg/system_status__type_support.cpp.o[0m
+[2.482s] [ 25%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/status_interfaces/msg/detail/dds_fastrtps/system_status__type_support.cpp.o[0m
+[2.484s] [ 29%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/status_interfaces/msg/detail/system_status__type_support.cpp.o[0m
+[2.643s] In file included from [01m[K/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces/rosidl_typesupport_cpp/status_interfaces/msg/system_status__type_support.cpp:7[m[K:
+[2.644s] [01m[K/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces/rosidl_generator_cpp/status_interfaces/msg/detail/system_status__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kbuildin_interfaces/msg/detail/time__struct.hpp: No such file or directory
+[2.644s]    20 | #include [01;31m[K"buildin_interfaces/msg/detail/time__struct.hpp"[m[K
+[2.644s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.644s] compilation terminated.
+[2.645s] gmake[2]: *** [CMakeFiles/status_interfaces__rosidl_typesupport_cpp.dir/build.make:88: CMakeFiles/status_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/status_interfaces/msg/system_status__type_support.cpp.o] Error 1
+[2.648s] gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/status_interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+[2.664s] In file included from [01m[K/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces/rosidl_typesupport_fastrtps_cpp/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[2.665s]                  from [01m[K/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces/rosidl_typesupport_fastrtps_cpp/status_interfaces/msg/detail/dds_fastrtps/system_status__type_support.cpp:4[m[K:
+[2.665s] [01m[K/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces/rosidl_generator_cpp/status_interfaces/msg/detail/system_status__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kbuildin_interfaces/msg/detail/time__struct.hpp: No such file or directory
+[2.665s]    20 | #include [01;31m[K"buildin_interfaces/msg/detail/time__struct.hpp"[m[K
+[2.665s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.665s] compilation terminated.
+[2.668s] gmake[2]: *** [CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:93: CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/status_interfaces/msg/detail/dds_fastrtps/system_status__type_support.cpp.o] Error 1
+[2.668s] gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[2.677s] In file included from [01m[K/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces/rosidl_typesupport_introspection_cpp/status_interfaces/msg/detail/system_status__type_support.cpp:12[m[K:
+[2.677s] [01m[K/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces/rosidl_generator_cpp/status_interfaces/msg/detail/system_status__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kbuildin_interfaces/msg/detail/time__struct.hpp: No such file or directory
+[2.677s]    20 | #include [01;31m[K"buildin_interfaces/msg/detail/time__struct.hpp"[m[K
+[2.677s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.677s] compilation terminated.
+[2.679s] gmake[2]: *** [CMakeFiles/status_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:93: CMakeFiles/status_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/status_interfaces/msg/detail/system_status__type_support.cpp.o] Error 1
+[2.680s] gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/status_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[2.680s] gmake: *** [Makefile:146: all] Error 2
+[2.686s] Invoked command in '/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces -- -j8 -l8

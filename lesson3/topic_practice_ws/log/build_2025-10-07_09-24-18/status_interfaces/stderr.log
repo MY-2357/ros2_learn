@@ -1,0 +1,32 @@
+In file included from [01m[K/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces/rosidl_generator_c/status_interfaces/msg/detail/system_status__functions.h:19[m[K,
+                 from [01m[K/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces/rosidl_generator_c/status_interfaces/msg/detail/system_status__functions.c:4[m[K:
+[01m[K/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces/rosidl_generator_c/status_interfaces/msg/detail/system_status__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Kbuildin_interfaces/msg/detail/time__struct.h: No such file or directory
+   22 | #include [01;31m[K"buildin_interfaces/msg/detail/time__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/status_interfaces__rosidl_generator_c.dir/build.make:107: CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__functions.c.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/status_interfaces__rosidl_generator_c.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces/rosidl_typesupport_cpp/status_interfaces/msg/system_status__type_support.cpp:7[m[K:
+[01m[K/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces/rosidl_generator_cpp/status_interfaces/msg/detail/system_status__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kbuildin_interfaces/msg/detail/time__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"buildin_interfaces/msg/detail/time__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/status_interfaces__rosidl_typesupport_cpp.dir/build.make:88: CMakeFiles/status_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/status_interfaces/msg/system_status__type_support.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/status_interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+In file included from [01m[K/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces/rosidl_typesupport_fastrtps_cpp/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+                 from [01m[K/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces/rosidl_typesupport_fastrtps_cpp/status_interfaces/msg/detail/dds_fastrtps/system_status__type_support.cpp:4[m[K:
+[01m[K/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces/rosidl_generator_cpp/status_interfaces/msg/detail/system_status__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kbuildin_interfaces/msg/detail/time__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"buildin_interfaces/msg/detail/time__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:93: CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/status_interfaces/msg/detail/dds_fastrtps/system_status__type_support.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+In file included from [01m[K/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces/rosidl_typesupport_introspection_cpp/status_interfaces/msg/detail/system_status__type_support.cpp:12[m[K:
+[01m[K/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces/rosidl_generator_cpp/status_interfaces/msg/detail/system_status__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kbuildin_interfaces/msg/detail/time__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"buildin_interfaces/msg/detail/time__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/status_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:93: CMakeFiles/status_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/status_interfaces/msg/detail/system_status__type_support.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/status_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

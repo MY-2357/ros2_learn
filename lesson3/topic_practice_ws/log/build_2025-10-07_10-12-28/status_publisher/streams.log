@@ -1,0 +1,25 @@
+[0.944s] Invoking command in '/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/src/status_publisher': PYTHONPATH=/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_publisher/build install --record /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_publisher/install.log --single-version-externally-managed install_data
+[1.241s] running egg_info
+[1.242s] writing ../../build/status_publisher/status_publisher.egg-info/PKG-INFO
+[1.242s] writing dependency_links to ../../build/status_publisher/status_publisher.egg-info/dependency_links.txt
+[1.242s] writing entry points to ../../build/status_publisher/status_publisher.egg-info/entry_points.txt
+[1.243s] writing requirements to ../../build/status_publisher/status_publisher.egg-info/requires.txt
+[1.243s] writing top-level names to ../../build/status_publisher/status_publisher.egg-info/top_level.txt
+[1.244s] reading manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[1.245s] adding license file 'LICENSE'
+[1.246s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[1.246s] running build
+[1.246s] running build_py
+[1.247s] copying status_publisher/sys_status_pub.py -> /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_publisher/build/lib/status_publisher
+[1.247s] running install
+[1.247s] running install_lib
+[1.248s] copying /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_publisher/build/lib/status_publisher/sys_status_pub.py -> /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[1.248s] byte-compiling /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher/sys_status_pub.py to sys_status_pub.cpython-310.pyc
+[1.249s] running install_data
+[1.250s] running install_egg_info
+[1.252s] removing '/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[1.253s] Copying ../../build/status_publisher/status_publisher.egg-info to /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher-0.0.0-py3.10.egg-info
+[1.254s] running install_scripts
+[1.280s] Installing sys_status_pub script to /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_publisher/lib/status_publisher
+[1.281s] writing list of installed files to '/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_publisher/install.log'
+[1.305s] Invoked command in '/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/src/status_publisher' returned '0': PYTHONPATH=/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_publisher/build install --record /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_publisher/install.log --single-version-externally-managed install_data

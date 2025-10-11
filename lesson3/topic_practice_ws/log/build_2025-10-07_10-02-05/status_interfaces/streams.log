@@ -1,0 +1,177 @@
+[0.026s] Invoking command in '/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces -- -j8 -l8
+[0.100s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.297s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.327s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.331s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.342s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.355s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.375s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.394s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.758s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.236s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.429s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.474s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.509s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.509s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.509s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.529s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.549s] -- Added test 'lint_cmake' to check CMake code style
+[1.554s] -- Added test 'xmllint' to check XML markup files
+[1.555s] -- Configuring done
+[1.634s] -- Generating done
+[1.648s] -- Build files have been written to: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces
+[1.720s] [35m[1mConsolidate compiler generated dependencies of target status_interfaces__rosidl_generator_c[0m
+[1.764s] [  3%] Built target status_interfaces__cpp
+[1.769s] [ 12%] Built target status_interfaces__rosidl_generator_c
+[1.800s] [35m[1mConsolidate compiler generated dependencies of target status_interfaces__rosidl_typesupport_cpp[0m
+[1.802s] [ 12%] Built target ament_cmake_python_copy_status_interfaces
+[1.810s] [35m[1mConsolidate compiler generated dependencies of target status_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.827s] [35m[1mConsolidate compiler generated dependencies of target status_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.851s] [ 22%] Built target status_interfaces__rosidl_typesupport_cpp
+[1.863s] [35m[1mConsolidate compiler generated dependencies of target status_interfaces__rosidl_typesupport_introspection_c[0m
+[1.872s] [35m[1mConsolidate compiler generated dependencies of target status_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.880s] [35m[1mConsolidate compiler generated dependencies of target status_interfaces__rosidl_typesupport_c[0m
+[1.890s] [ 32%] Built target status_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.924s] [ 41%] Built target status_interfaces__rosidl_typesupport_introspection_cpp
+[1.929s] [ 51%] Built target status_interfaces__rosidl_typesupport_introspection_c
+[1.938s] [ 61%] Built target status_interfaces__rosidl_typesupport_fastrtps_c
+[1.938s] [ 70%] Built target status_interfaces__rosidl_typesupport_c
+[2.014s] [ 70%] Built target status_interfaces
+[2.095s] [ 74%] Built target status_interfaces__py
+[2.127s] [35m[1mConsolidate compiler generated dependencies of target status_interfaces__rosidl_generator_py[0m
+[2.174s] [ 80%] Built target status_interfaces__rosidl_generator_py
+[2.209s] running egg_info
+[2.210s] writing status_interfaces.egg-info/PKG-INFO
+[2.211s] [35m[1mConsolidate compiler generated dependencies of target status_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.211s] writing dependency_links to status_interfaces.egg-info/dependency_links.txt
+[2.211s] writing top-level names to status_interfaces.egg-info/top_level.txt
+[2.216s] reading manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[2.216s] [35m[1mConsolidate compiler generated dependencies of target status_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[2.217s] writing manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[2.217s] [35m[1mConsolidate compiler generated dependencies of target status_interfaces__rosidl_typesupport_c__pyext[0m
+[2.265s] [ 87%] Built target status_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.270s] [ 87%] Built target ament_cmake_python_build_status_interfaces_egg
+[2.271s] [ 93%] Built target status_interfaces__rosidl_typesupport_c__pyext
+[2.275s] [100%] Built target status_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.309s] Invoked command in '/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces -- -j8 -l8
+[2.337s] Invoking command in '/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces
+[2.362s] -- Install configuration: ""
+[2.364s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/rosidl_interfaces/status_interfaces
+[2.364s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[2.365s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[2.365s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.h
+[2.365s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[2.365s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.h
+[2.365s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.h
+[2.365s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.h
+[2.365s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.c
+[2.365s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.365s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/library_path.sh
+[2.366s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/library_path.dsv
+[2.368s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so
+[2.370s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[2.370s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[2.370s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[2.370s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h
+[2.370s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.370s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.371s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[2.371s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[2.371s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[2.372s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.hpp
+[2.373s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__builder.hpp
+[2.373s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__traits.hpp
+[2.373s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.hpp
+[2.374s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.hpp
+[2.374s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.374s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[2.374s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[2.374s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[2.374s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/dds_fastrtps
+[2.374s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.374s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.375s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.376s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[2.376s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[2.376s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[2.376s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h
+[2.376s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.c
+[2.376s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.377s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so
+[2.379s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so
+[2.381s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[2.381s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[2.381s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[2.383s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.cpp
+[2.383s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp
+[2.383s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.386s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so
+[2.387s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.sh
+[2.387s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.dsv
+[2.388s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info
+[2.388s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.389s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.389s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.390s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.391s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces
+[2.391s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c
+[2.391s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.391s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg
+[2.392s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status_s.c
+[2.392s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/__init__.py
+[2.393s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status.py
+[2.393s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.393s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/__init__.py
+[2.395s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.395s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.395s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.395s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/libstatus_interfaces__rosidl_generator_py.so
+[2.441s] Listing '/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces'...
+[2.441s] Compiling '/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/__init__.py'...
+[2.441s] Listing '/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg'...
+[2.452s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.453s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.456s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.459s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so
+[2.462s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.idl
+[2.463s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.msg
+[2.463s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/package_run_dependencies/status_interfaces
+[2.464s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/parent_prefix_path/status_interfaces
+[2.464s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.sh
+[2.464s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.dsv
+[2.465s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/path.sh
+[2.465s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/path.dsv
+[2.465s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.bash
+[2.466s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.sh
+[2.466s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.zsh
+[2.467s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.dsv
+[2.468s] -- Installing: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/package.dsv
+[2.468s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/packages/status_interfaces
+[2.469s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport.cmake
+[2.469s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.470s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.470s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.470s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cppExport.cmake
+[2.470s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.470s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.470s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.470s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.470s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport.cmake
+[2.471s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.471s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.471s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.471s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport.cmake
+[2.471s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.471s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport.cmake
+[2.471s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.471s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.471s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.472s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.472s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.472s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.472s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.472s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.472s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig.cmake
+[2.472s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig-version.cmake
+[2.472s] -- Up-to-date: /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces/share/status_interfaces/package.xml
+[2.475s] Invoked command in '/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces

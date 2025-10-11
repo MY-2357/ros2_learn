@@ -1,0 +1,33 @@
+[0.025s] Invoking command in '/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces
+[0.262s] -- The C compiler identification is GNU 11.4.0
+[0.417s] -- The CXX compiler identification is GNU 11.4.0
+[0.442s] -- Detecting C compiler ABI info
+[0.647s] -- Detecting C compiler ABI info - done
+[0.652s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.654s] -- Detecting C compile features
+[0.658s] -- Detecting C compile features - done
+[0.663s] -- Detecting CXX compiler ABI info
+[0.878s] -- Detecting CXX compiler ABI info - done
+[0.884s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.884s] -- Detecting CXX compile features
+[0.884s] -- Detecting CXX compile features - done
+[0.891s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.116s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.242s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.286s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.295s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.308s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.332s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.356s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.380s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.404s] -- Configuring incomplete, errors occurred!
+[1.405s] See also "/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces/CMakeFiles/CMakeOutput.log".
+[1.406s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[1.406s]   rosidl_generate_interfaces() the passed file 'msg/SystemStatus.mdg' doesn't
+[1.406s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[1.406s]   '/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/src/status_interfaces'
+[1.406s] Call Stack (most recent call first):
+[1.406s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.406s] 
+[1.406s] [0m
+[1.416s] Invoked command in '/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/build/status_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/install/status_interfaces

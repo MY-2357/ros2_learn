@@ -1,0 +1,6 @@
+{
+  "package_name": "status_interfaces",
+  "non_idl_tuples": [
+    "/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/src/status_interfaces:msg/SystemStatus.msg"
+  ]
+}
