@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:15:
+  Parse error.  Expected "(", got unquoted argument with text
+  "src/status_display.cpp".
+
+[0m
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

@@ -77,6 +77,9 @@
         "cinttypes": "cpp",
         "typeindex": "cpp",
         "typeinfo": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "qstring": "cpp",
+        "qlabel": "cpp",
+        "qapplication": "cpp"
     }
 }

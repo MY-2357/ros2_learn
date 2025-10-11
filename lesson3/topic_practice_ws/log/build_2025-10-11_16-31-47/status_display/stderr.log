@@ -1,0 +1,54 @@
+[01m[K/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:[m[K In constructor ‘[01m[KSystemStatusDisplay::SystemStatusDisplay()[m[K’:
+[01m[K/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:17:5:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node()[m[K’
+   17 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const rclcpp::Node&, const string&)[m[K’
+ 1294 |   [01;36m[KNode[m[K(
+      |   [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)[m[K’
+  101 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)[m[K’
+   89 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:17:5:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Subscription<status_interfaces::msg::SystemStatus_<std::allocator<void> > >::Subscription()[m[K’
+   17 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:130:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::Subscription(rclcpp::node_interfaces::NodeBaseInterface*, const rosidl_message_type_support_t&, const string&, const rclcpp::QoS&, rclcpp::AnySubscriptionCallback<CallbackMessageT, AllocatorT>, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::SubscriptionTopicStatisticsSharedPtr) [with MessageT = status_interfaces::msg::SystemStatus_<std::allocator<void> >; AllocatorT = std::allocator<void>; SubscribedT = status_interfaces::msg::SystemStatus_<std::allocator<void> >; ROSMessageT = status_interfaces::msg::SystemStatus_<std::allocator<void> >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<status_interfaces::msg::SystemStatus_<std::allocator<void> >, std::allocator<void> >; rosidl_message_type_support_t = rosidl_message_type_support_t; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<status_interfaces::msg::SystemStatus_<std::allocator<void> >, std::allocator<void> > >; rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::SubscriptionTopicStatisticsSharedPtr = std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<status_interfaces::msg::SystemStatus_<std::allocator<void> > > >][m[K’
+  130 |   [01;36m[KSubscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:130:3:[m[K [01;36m[Knote: [m[K  candidate expects 8 arguments, 0 provided
+[01m[K/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:20:104:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Subscription<status_interfaces::msg::SystemStatus_<std::allocator<void> > >[m[K’ and ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<status_interfaces::msg::SystemStatus_<std::allocator<void> > > >[m[K’)
+   20 |                                                         { label_->setText(get_qstring_from_msg(msg)); }[01;31m[K)[m[K;
+      |                                                                                                        [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:35[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/zmy/Desktop/ros2_learn/lesson3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:423:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>& rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::operator=(const rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>&) [with MessageT = status_interfaces::msg::SystemStatus_<std::allocator<void> >; AllocatorT = std::allocator<void>; SubscribedT = status_interfaces::msg::SystemStatus_<std::allocator<void> >; ROSMessageT = status_interfaces::msg::SystemStatus_<std::allocator<void> >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<status_interfaces::msg::SystemStatus_<std::allocator<void> >, std::allocator<void> >][m[K’ (deleted)
+  423 |   [01;36m[KRCLCPP_DISABLE_COPY[m[K(Subscription)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:423:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<status_interfaces::msg::SystemStatus_<std::allocator<void> > > >[m[K’ to ‘[01m[Kconst rclcpp::Subscription<status_interfaces::msg::SystemStatus_<std::allocator<void> > >&[m[K’
+  423 |   [01;36m[KRCLCPP_DISABLE_COPY[m[K(Subscription)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/sys_status_display.dir/build.make:76: CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/sys_status_display.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
