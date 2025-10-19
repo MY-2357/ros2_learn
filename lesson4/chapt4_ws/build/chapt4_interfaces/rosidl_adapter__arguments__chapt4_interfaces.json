@@ -1,0 +1,6 @@
+{
+  "package_name": "chapt4_interfaces",
+  "non_idl_tuples": [
+    "/home/zmy/Desktop/ros2_learn/lesson4/chapt4_ws/src/chapt4_interfaces:srv/FaceDetector.srv"
+  ]
+}
