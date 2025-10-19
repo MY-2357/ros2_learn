@@ -1,3 +1,7 @@
-*/build/
-*/install/
-*/log/
+.vscode
+lesson3/build/
+lesson3/install/
+lesson3/log/
+lesson4/build/
+lesson4/install
+lesson4/log
