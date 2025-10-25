@@ -169,7 +169,7 @@ rosidl_typesupport_cpp/chapt4_interfaces/srv/face_detector__type_support.cpp: /o
 rosidl_typesupport_cpp/chapt4_interfaces/srv/face_detector__type_support.cpp: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_typesupport_cpp/chapt4_interfaces/srv/face_detector__type_support.cpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zmy/Desktop/ros2_learn/lesson4/chapt4_ws/build/chapt4_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support dispatch for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp --generator-arguments-file /home/zmy/Desktop/ros2_learn/lesson4/chapt4_ws/build/chapt4_interfaces/rosidl_typesupport_cpp__arguments.json --typesupports rosidl_typesupport_fastrtps_cpp rosidl_typesupport_introspection_cpp
+	/home/zmy/Desktop/ros2_learn/lesson4/chapt4_ws/.venv/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp --generator-arguments-file /home/zmy/Desktop/ros2_learn/lesson4/chapt4_ws/build/chapt4_interfaces/rosidl_typesupport_cpp__arguments.json --typesupports rosidl_typesupport_fastrtps_cpp rosidl_typesupport_introspection_cpp
 
 CMakeFiles/chapt4_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chapt4_interfaces/srv/face_detector__type_support.cpp.o: CMakeFiles/chapt4_interfaces__rosidl_typesupport_cpp.dir/flags.make
 CMakeFiles/chapt4_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chapt4_interfaces/srv/face_detector__type_support.cpp.o: rosidl_typesupport_cpp/chapt4_interfaces/srv/face_detector__type_support.cpp

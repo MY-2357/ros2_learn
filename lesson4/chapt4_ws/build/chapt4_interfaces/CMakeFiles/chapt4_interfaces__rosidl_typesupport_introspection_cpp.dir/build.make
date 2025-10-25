@@ -171,7 +171,7 @@ rosidl_typesupport_introspection_cpp/chapt4_interfaces/srv/detail/face_detector_
 rosidl_typesupport_introspection_cpp/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_typesupport_introspection_cpp/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zmy/Desktop/ros2_learn/lesson4/chapt4_ws/build/chapt4_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ introspection for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp --generator-arguments-file /home/zmy/Desktop/ros2_learn/lesson4/chapt4_ws/build/chapt4_interfaces/rosidl_typesupport_introspection_cpp__arguments.json
+	/home/zmy/Desktop/ros2_learn/lesson4/chapt4_ws/.venv/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp --generator-arguments-file /home/zmy/Desktop/ros2_learn/lesson4/chapt4_ws/build/chapt4_interfaces/rosidl_typesupport_introspection_cpp__arguments.json
 
 rosidl_typesupport_introspection_cpp/chapt4_interfaces/srv/detail/face_detector__type_support.cpp: rosidl_typesupport_introspection_cpp/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_cpp.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/chapt4_interfaces/srv/detail/face_detector__type_support.cpp

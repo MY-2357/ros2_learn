@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_chapt4_interfaces_egg.dir/compiler_d
 include CMakeFiles/ament_cmake_python_build_chapt4_interfaces_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_chapt4_interfaces_egg:
-	cd /home/zmy/Desktop/ros2_learn/lesson4/chapt4_ws/build/chapt4_interfaces/ament_cmake_python/chapt4_interfaces && /usr/bin/python3 setup.py egg_info
+	cd /home/zmy/Desktop/ros2_learn/lesson4/chapt4_ws/build/chapt4_interfaces/ament_cmake_python/chapt4_interfaces && /home/zmy/Desktop/ros2_learn/lesson4/chapt4_ws/.venv/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_chapt4_interfaces_egg: CMakeFiles/ament_cmake_python_build_chapt4_interfaces_egg
 ament_cmake_python_build_chapt4_interfaces_egg: CMakeFiles/ament_cmake_python_build_chapt4_interfaces_egg.dir/build.make

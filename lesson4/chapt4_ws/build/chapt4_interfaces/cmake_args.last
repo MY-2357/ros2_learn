@@ -1,1 +1,1 @@
-None
+['-DPYTHON_EXECUTABLE:FILEPATH=/home/zmy/Desktop/ros2_learn/lesson4/chapt4_ws/.venv/bin/python3', '-DCMAKE_PREFIX_PATH=/home/zmy/Desktop/ros2_learn/lesson4/chapt4_ws/.venv']

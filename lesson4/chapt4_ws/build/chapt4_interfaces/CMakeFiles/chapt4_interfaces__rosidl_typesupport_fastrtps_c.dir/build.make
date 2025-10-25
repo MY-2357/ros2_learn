@@ -171,7 +171,7 @@ rosidl_typesupport_fastrtps_c/chapt4_interfaces/srv/detail/face_detector__rosidl
 rosidl_typesupport_fastrtps_c/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_typesupport_fastrtps_c/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zmy/Desktop/ros2_learn/lesson4/chapt4_ws/build/chapt4_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support for eProsima Fast-RTPS"
-	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c --generator-arguments-file /home/zmy/Desktop/ros2_learn/lesson4/chapt4_ws/build/chapt4_interfaces/rosidl_typesupport_fastrtps_c__arguments.json
+	/home/zmy/Desktop/ros2_learn/lesson4/chapt4_ws/.venv/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c --generator-arguments-file /home/zmy/Desktop/ros2_learn/lesson4/chapt4_ws/build/chapt4_interfaces/rosidl_typesupport_fastrtps_c__arguments.json
 
 rosidl_typesupport_fastrtps_c/chapt4_interfaces/srv/detail/face_detector__type_support_c.cpp: rosidl_typesupport_fastrtps_c/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/chapt4_interfaces/srv/detail/face_detector__type_support_c.cpp
